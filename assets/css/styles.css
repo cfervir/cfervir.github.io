@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*, *::after, *::before { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.container-desafio {
+    max-width: 1200px;
+}
+
+.container-desafio-menor {
+    max-width: 800px;
+}
+
+.container-formulario {
+    max-width: 600px;
+}
+
+/* NAVBAR */
+
+.max-width-logo {
+    max-width: 40px;
+}
+
+/* HEADER & HERO */
+
+.hero-section {
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 22%;
+    max-height: 720px;
+}
+
+.padding-hero-mobile {
+    padding-top: 20rem;
+}
+
+.text-hero-shadow {
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.espacio-boton {
+    margin: 0.5em 0.5em 1em;
+}
+
+@media (min-width: 600px) {
+    .hero-section {
+        background-position: left;
+        max-height: 650px;
+    }
+
+    .padding-hero-mobile {
+        padding-top: 10rem;
+    }
+}
+
+/* MAIN */
+
+/* MAIN - Acerca de mi */
+
+.about-img {
+    max-width: 200px;
+}
+
+.card-img-max-size {
+    max-height: 260px;
+    object-fit: cover;
+}
